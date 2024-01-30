@@ -129,6 +129,7 @@ nav .logo-name{
     margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 .main-button:hover,
 .main-button:focus{
@@ -172,24 +173,9 @@ nav .logo-name{
     background-color: #F4F4FD;
     margin-bottom: 8px;
 }
-.antenna-icon{
-    width: 64px;
-    height: 64px;
-    margin-top: 24px;
-    margin-left: 100px;
-}
-.clock-icon{
-    width: 64px;
-    height: 64px;
-    margin-top: 24px;
-    margin-left: 100px;
-}
-.diagram-icon{
-    width: 64px;
-    height: 64px;
-    margin-top: 24px;
-    margin-left: 100px;
-}
+.antenna-icon,
+.clock-icon,
+.diagram-icon,
 .astronaut-icon{
     width: 64px;
     height: 64px;
@@ -240,6 +226,29 @@ nav .logo-name{
     line-height: 24px;
     letter-spacing: 2%;
 }
+.social-media-container{
+    width: 232px;
+    height: 40px;
+    display: flex;
+    gap: 24px;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+.mini-container{
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5 ;
+    border-radius: 50%;
+}
+.instagram-icon,
+.twitter-icon,
+.facebook-icon,
+.linkedin-icon{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
 .text{
     font-size: 16px;
     line-height: 1.5;
@@ -279,6 +288,7 @@ nav .logo-name{
 .footer-section{
     background-color: #2E2F42;
     padding: 100px 0;
+    display: flex;
 }
 footer .text{
     color: #F4F4FD;
@@ -299,6 +309,31 @@ footer .logo-name{
 }
 .logo-accent-two{
     color: #F4F4FD;
+}
+footer .container{
+    margin-left: 156px;
+    margin-right: 120px;
+}
+.footer-social-media-container{
+    width: 208px;
+    height: 80px;
+    margin-right: 682px;
+}
+.footer-icon-container{
+    width: 208px;
+    height: 40px;
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+footer .instagram-icon,
+footer .twitter-icon,
+footer .facebook,
+footer .linkedin-icon{
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+    margin-left: 8px;
 }
 .easy{
     position: relative;
